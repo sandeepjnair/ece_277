@@ -1,0 +1,10 @@
+^H:\SJNAIR\GPU_PROGRAMMING\QUIZ_7\BUILD\CMAKEFILES\F8330B158C3B676CA8A92921CB565325\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/sjnair/GPU_programming/quiz_7 -BH:/sjnair/GPU_programming/quiz_7/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/sjnair/GPU_programming/quiz_7/build/Quiz7.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

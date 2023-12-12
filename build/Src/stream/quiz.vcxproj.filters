@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\sjnair\GPU_programming\quiz_7\Src\stream\quiz.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\sjnair\GPU_programming\quiz_7\build\CMakeFiles\c4760dedb983cbe7c4aca537de66a6a7\quiz_intermediate_link.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\sjnair\GPU_programming\quiz_7\Src\stream\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="H:\sjnair\GPU_programming\quiz_7\build\Src\stream\CMakeFiles\quiz.dir\$(Configuration)\quiz_generated_quiz.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="H:\sjnair\GPU_programming\quiz_7\build\Src\stream\CMakeFiles\quiz.dir\$(Configuration)\quiz_intermediate_link.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{14C8E4C9-3F80-399C-AB7A-B0B0B7D2A084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{2EC330AC-73C9-3268-AB74-DF74A6DF26E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F40BD159-837A-3FF9-97D3-12547777C7AA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

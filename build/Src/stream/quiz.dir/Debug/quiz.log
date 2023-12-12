@@ -1,0 +1,14 @@
+﻿  Building NVCC (Device) object Src/stream/CMakeFiles/quiz.dir/Debug/quiz_generated_quiz.cu.obj
+  quiz.cu
+CUSTOMBUILD : nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+CUSTOMBUILD : ptxas warning : Conflicting options --device-debug and --generate-line-info specified, ignoring --generate-line-info option
+  ptxas info    : 0 bytes gmem
+  ptxas info    : Compiling entry function '_Z10vector_addPiS_S_' for 'sm_52'
+  ptxas info    : Function properties for _Z10vector_addPiS_S_
+      0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Used 11 registers, 344 bytes cmem[0]
+CUSTOMBUILD : nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+  quiz.cu
+  Building NVCC intermediate link file Src/stream/CMakeFiles/quiz.dir/Debug/quiz_intermediate_link.obj
+  quiz_generated_quiz.cu.obj
+  quiz.vcxproj -> H:\sjnair\GPU_programming\quiz_7\build\Src\stream\Debug\quiz.exe

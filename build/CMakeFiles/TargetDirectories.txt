@@ -1,0 +1,3 @@
+H:/sjnair/GPU_programming/quiz_7/build/CMakeFiles/ALL_BUILD.dir
+H:/sjnair/GPU_programming/quiz_7/build/CMakeFiles/ZERO_CHECK.dir
+H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/quiz.dir

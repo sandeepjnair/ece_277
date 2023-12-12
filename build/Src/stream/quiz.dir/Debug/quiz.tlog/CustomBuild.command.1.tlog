@@ -1,0 +1,36 @@
+^H:\SJNAIR\GPU_PROGRAMMING\QUIZ_7\SRC\STREAM\QUIZ.CU
+setlocal
+cd H:\sjnair\GPU_programming\quiz_7\build\Src\stream\CMakeFiles\quiz.dir
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/quiz.dir//Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D generated_file:STRING=H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/quiz.dir//Debug/quiz_generated_quiz.cu.obj -D generated_cubin_file:STRING=H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/quiz.dir//Debug/quiz_generated_quiz.cu.obj.cubin.txt -P H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/quiz.dir//quiz_generated_quiz.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SJNAIR\GPU_PROGRAMMING\QUIZ_7\BUILD\CMAKEFILES\C4760DEDB983CBE7C4ACA537DE66A6A7\QUIZ_INTERMEDIATE_LINK.OBJ.RULE
+setlocal
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin\nvcc.exe" -lnvToolExt -gencode arch=compute_52,code=sm_52 --cudart=shared -lineinfo -arch sm_52 -use_fast_math -m64 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -dlink H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/quiz.dir//Debug/quiz_generated_quiz.cu.obj -o H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/quiz.dir/Debug/quiz_intermediate_link.obj -Xcompiler /MDd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SJNAIR\GPU_PROGRAMMING\QUIZ_7\SRC\STREAM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/sjnair/GPU_programming/quiz_7 -BH:/sjnair/GPU_programming/quiz_7/build --check-stamp-file H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

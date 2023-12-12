@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindCUDA/run_nvcc.cmake
+H:/sjnair/GPU_programming/quiz_7/Src/stream/CMakeLists.txt
+H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/quiz.dir/quiz_generated_quiz.cu.obj.cmake.pre-gen
+H:/sjnair/GPU_programming/quiz_7/build/Src/stream/CMakeFiles/quiz.dir/quiz_generated_quiz.cu.obj.depend
